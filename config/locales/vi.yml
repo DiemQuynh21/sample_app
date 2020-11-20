@@ -17,6 +17,7 @@ vi:
   help_param_content_2_help: "Rails Tutorial help page."
   help_param_content_2_end: "."
   sign_up_now: "Đăng ký ngay!"
+  sign_up: "Đăng ký"
   tutorial: "Ruby on Rails Tutorial"
   author: "Michael Hartl"
   footer_param_content_1: "The "
@@ -26,3 +27,13 @@ vi:
   about: "Giới thiệu"
   contact: "Liên hệ"
   news: "Tin tức"
+  account:
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu"
+    confirmation: "Xác nhận mật khẩu"
+    create_account: "Tạo tài khoản"
+    not_find_account: "Không tìm thấy User"
+    error: "lỗi"
+
+
