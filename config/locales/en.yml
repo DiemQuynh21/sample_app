@@ -30,4 +30,32 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  title:
+    title_404: "The page you were looking for doesn't exist (404)"
+    title_422: "The change you wanted was rejected (422)"
+    title_500: "We're sorry, but something went wrong (500)"
+    main_title: "Sample App"
+    base_title: "Ruby on Rails Tutorial Sample App"
   hello: "Hello world"
+  home: "Home"
+  help: "Help"
+  login: "Login"
+  home_title: "Welcome to Sample App"
+  home_param_content_1: "This is the home page for the"
+  home_param_content_2: "sample application"
+  help_param_content_1: "Get help on the Ruby in Rails Tutorial at the "
+  help_param_content_2_begin: "To get help on this sample app, see the "
+  help_param_content_2_help: "Rails Tutorial help page."
+  help_param_content_2_end: "book."
+  sign_up_now: "Sign up now!"
+  tutorial: "Ruby on Rails Tutorial"
+  author: "Michael Hartl"
+  footer_param_content_1: "The "
+  footer_param_content_2: "by "
+  english: "English"
+  vietnamese: "Vietnamese"
+  about: "About"
+  contact: "Contact"
+  news: "News"
+  hello: "Hello world"
+
