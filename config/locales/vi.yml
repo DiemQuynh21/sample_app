@@ -35,5 +35,15 @@ vi:
     create_account: "Tạo tài khoản"
     not_find_account: "Không tìm thấy User"
     error: "lỗi"
-
-
+  user_login:
+    log_in: "Đăng nhập"
+    email: "Email"
+    password: "Mật khẩu"
+    new_user: "User mới ? "
+    signup_now: "Đăng ký ngay!"
+    invalid_user: "Email & mật khẩu không hợp lệ !!"
+    uaccount: "Tài khoản"
+    profile: "Thông tin cá nhân"
+    setting: "Cài đặt"
+    log_out: "Đăng xuất"
+    us: "Người dùng"
