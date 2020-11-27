@@ -58,6 +58,13 @@ en:
   about: "About"
   contact: "Contact"
   news: "News"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
   account:
     name: "Name"
     email: "Email"
@@ -103,3 +110,18 @@ en:
     activate_success: "Account activated!"
     activate_fail: "Invalid activation link"
     not_activate: "Account not activated. Check your email for the activation link."
+  reset_password:
+    title: "Password reset"
+    forget_pw: "Forgot password"
+    reset_pw: "Reset password"
+    submit: "Submit"
+    update_pw: "Update password"
+    reset_pw_param_1: "To reset your password click the link below:"
+    reset_pw_param_2: "Reset password"
+    reset_pw_param_3: "This link will expire in two hours."
+    reset_pw_param_3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    checkmail_resetpw: "Email sent with password reset instructions "
+    not_found_email: "Email address not found"
+    pass_empty: "can't be empty"
+    reset_success: "Password has been reset."
+    pass_expire: "Password reset has expired."

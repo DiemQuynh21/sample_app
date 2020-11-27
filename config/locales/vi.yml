@@ -27,6 +27,13 @@ vi:
   about: "Giới thiệu"
   contact: "Liên hệ"
   news: "Tin tức"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
   account:
     name: "Tên"
     email: "Email"
@@ -72,3 +79,18 @@ vi:
     activate_success: "Tài khoản đã được kích hoạt"
     activate_fail: "Liên kết kích hoạt không hợp lệ"
     not_activate: "Tài khoản chưa được kích hoạt. Kiểm tra liên kết kích hoạt trong email của bạn."
+  reset_password:
+    title: "Đặt lại mật khẩu"
+    forget_pw: "Quên mật khẩu"
+    reset_pw: "Đặt lại mật khẩu"
+    submit: "Gửi"
+    update_pw: "Cập nhật mật khẩu"
+    reset_pw_param_1: "Để đặt lại mất khẩu vui lòng nhấn vào link sau: "
+    reset_pw_param_2: "Đặt lại mật khẩu"
+    reset_pw_param_3: "Liên kết này có thời hạn trong 2h."
+    reset_pw_param_3: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+    checkmail_resetpw: "Email gửi kèm hướng dẫn đặt lại mật khẩu "
+    not_found_email: "Địa chỉ email không tìm thấy"
+    pass_empty: "Không thể trống"
+    reset_success: "Mật khẩu đã được đặt lại."
+    pass_expire: "Đặt lại mật khẩu hết hạn."
