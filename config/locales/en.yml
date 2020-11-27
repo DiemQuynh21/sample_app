@@ -125,3 +125,19 @@ en:
     pass_empty: "can't be empty"
     reset_success: "Password has been reset."
     pass_expire: "Password reset has expired."
+  micropost:
+    micro_title: "Microposts"
+    create_micro_success: "Micropost created!"
+    delete_micro_success: "Micropost deleted"
+    micro_feed: "Micropost Feed"
+    view_info: "View my profile"
+    micro: "micropost"
+    btn_post: "Post"
+    btn_delete: "Delete"
+    placeder_micro: "Compose new micropost..."
+    posted: "Posted "
+    ago: "ago."
+    image:
+      mess_image: "must be a valid image format"
+      size_mess: "should be less than 5MB"
+      

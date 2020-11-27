@@ -8,7 +8,10 @@ class UsersController < ApplicationController
                            per_page: Settings.user.page.per_page
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate(page: params[:page],
+                                            per_page: Settings.micropost.page.per_page)
+  end
 
   def new
     @user = User.new
@@ -50,12 +53,11 @@ class UsersController < ApplicationController
     redirect_to root_path unless current_user.admin?
   end
 
-  def logged_in_user
-    return if logged_in?
+  def load_user
+    return if @user = User.find_by(id: params[:id])
 
-    store_location
-    flash[:danger] = t "edit_user.mess_logged"
-    redirect_to login_path
+    flash[:danger] = t "show_user.user_not_found"
+    redirect_to root_path
   end
 
   def load_user

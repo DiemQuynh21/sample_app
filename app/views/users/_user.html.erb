@@ -1,5 +1,5 @@
 <li>
-  <%= gravatar_for user %>
+  <%= gravatar_for user, size: Settings.user.avatar.min_size %>
   <%= link_to user.name, user %>
   <%= check_permit_delete user %>
 </li>
