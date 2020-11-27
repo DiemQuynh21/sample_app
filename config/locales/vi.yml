@@ -48,3 +48,19 @@ vi:
     log_out: "Đăng xuất"
     us: "Người dùng"
     remember: "Hãy ghi nhớ tôi trên máy tính này"
+  edit_user:
+    edit: "Sửa"
+    edit_title: "Cập nhật thông tin cá nhân"
+    edit_btn: "Lưu thay đổi"
+    change_grava: "Thay đổi"
+    update_success: "Thông tin đã được cập nhật"
+    update_fail: "Thông tin chưa được cập nhật"
+    mess_logged: Vui lòng đăng nhập"
+  show_user:
+    show_all: "Tất cả người dùng"
+    user_not_found: "Không tìm thấý user"
+  delete_user:
+    mess_success: "Người dùng đã được xóa"
+    mess_fail: "Xóa không thành công"
+    title_delete: "| Xóa"
+    u_sure: "Bạn có chắc chắn xóa"
