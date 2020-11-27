@@ -64,3 +64,11 @@ vi:
     mess_fail: "Xóa không thành công"
     title_delete: "| Xóa"
     u_sure: "Bạn có chắc chắn xóa"
+  email:
+    email_greeting: "Xin chào"
+    email_content: "Chào mừng bạn đến với Sample app! Vui lòng nhấn vào link bên dưới để kích hoạt tài khoản của bạn: "
+    email_activate: "Kích hoạt"
+    email_check: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản."
+    activate_success: "Tài khoản đã được kích hoạt"
+    activate_fail: "Liên kết kích hoạt không hợp lệ"
+    not_activate: "Tài khoản chưa được kích hoạt. Kiểm tra liên kết kích hoạt trong email của bạn."

@@ -95,3 +95,11 @@ en:
     mess_fail: "Delete unsuccessful"
     title_delete: "| Delete"
     u_sure: "You sure?"
+  email:
+    email_greeting: "Hi"
+    email_content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    email_activate: "Activate"
+    email_check: "Please check your email to activate your account."
+    activate_success: "Account activated!"
+    activate_fail: "Invalid activation link"
+    not_activate: "Account not activated. Check your email for the activation link."

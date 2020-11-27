@@ -13,12 +13,23 @@ module SessionsHelper
     cookies.permanent[:remember_token] = user.remember_token
   end
 
+  def check_user_activation user
+    if user.activated?
+      log_in user
+      remember_me user
+      redirect_back_or user
+    else
+      flash[:warning] = t "email.not_activate"
+      redirect_to root_path
+    end
+  end
+
   def current_user
     if (user_id = session[:user_id])
       @current_user ||= User.find_by id: user_id
     elsif (user_id = cookies.signed[:user_id])
       user = User.find_by id: user_id
-      if user&.authenticated?(cookies[:remember_token])
+      if user&.authenticated?(:remember, cookies[:remember_token])
         log_in user
         @current_user = user
       end
