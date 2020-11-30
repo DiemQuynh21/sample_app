@@ -3,3 +3,7 @@ user:
     max_length: 50
   email:
     max_length: 255
+  password:
+    min_length: 6
+  page:
+    per_page: 20

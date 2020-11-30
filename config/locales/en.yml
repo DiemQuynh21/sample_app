@@ -79,3 +79,19 @@ en:
     log_out: "Log out"
     us: "Users"
     remember: "Remember me on this computer"
+  edit_user:
+    edit: "Edit"
+    edit_title: "Update your profile"
+    edit_btn: "Save changes"
+    change_grava: "Change"
+    update_success: "Profile updated"
+    update_fail: "Profile not updated"
+    mess_logged: "Please log in"
+  show_user:
+    show_all: "All Users"
+    user_not_found: "User not found"
+  delete_user:
+    mess_success: "User deleted"
+    mess_fail: "Delete unsuccessful"
+    title_delete: "| Delete"
+    u_sure: "You sure?"
