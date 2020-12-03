@@ -5,7 +5,15 @@ user:
     max_length: 255
   password:
     min_length: 6
+  avatar:
+    max_size: 80
+    min_size: 60
   page:
     per_page: 20
-  time:
-    expired: 2
+micropost:
+  content:
+    max_length: 150
+  page:
+    per_page: 5
+  size_image:
+    size: 5
