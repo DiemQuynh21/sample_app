@@ -7,3 +7,5 @@ user:
     min_length: 6
   page:
     per_page: 20
+  time:
+    expired: 2
